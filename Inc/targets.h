@@ -2,7 +2,7 @@
 
 #ifndef USE_MAKE
 //#define FD6288_F051
-//#define IFLIGHT_F051
+#define IFLIGHT_F051
 //#define MP6531_F051
 //#define DAKEFPV_35A_F051
 //#define REPEAT_DRIVE_F051
@@ -16,7 +16,7 @@
 //#define AIKON20X20_F051
 //#define AIKONSINGLE_F051
 //#define FLYCOLOR_F051
-#define AM32REF_F051
+//#define AM32REF_F051
 //#define BLPWR_F051
 //#define HVFLYCOLOR_F051
 //#define FLASHHOBBY_F051
@@ -575,9 +575,9 @@
 #define PHASE_C_GPIO_HIGH       LL_GPIO_PIN_8
 #define PHASE_C_GPIO_PORT_HIGH  GPIOA
 
-#define PHASE_A_COMP COMP_PA0
+#define PHASE_A_COMP COMP_PA5
 #define PHASE_B_COMP COMP_PA4
-#define PHASE_C_COMP COMP_PA5
+#define PHASE_C_COMP COMP_PA0
 
 #endif
 
